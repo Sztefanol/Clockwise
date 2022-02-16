@@ -1,0 +1,62 @@
+.cell:nth-child(1) {
+  --cos: cos(1 * 30deg);
+  --sin: sin(1 * 30deg);
+  position: absolute;
+  top: calc((0.5 + var(--cos)) * 100%);
+  left: calc((0.5 + var(--sin)) * 100%);
+}
+.cell:nth-child(2) {
+  position: absolute;
+  top: 6.70%;
+  left: 75%;
+}
+.cell:nth-child(3) {
+  position: absolute;
+  top: 25.0%;
+  left: 93.3%;
+}
+.cell:nth-child(4) {
+  position: absolute;
+  top: 50.0%;
+  left: 100.0%;
+}
+.cell:nth-child(5) {
+  position: absolute;
+  top: 75.0%;
+  left: 93.3%;
+}
+.cell:nth-child(6) {
+  position: absolute;
+  top: 93.3%;
+  left: 75.0%;
+}
+.cell:nth-child(7) {
+  position: absolute;
+  top: 100.0%;
+  left: 50.0%;
+}
+.cell:nth-child(8) {
+  position: absolute;
+  top: 93.3%;
+  left: 25.0%;
+}
+.cell:nth-child(9) {
+  position: absolute;
+  top: 75.0%;
+  left: 6.70%;
+}
+.cell:nth-child(10) {
+  position: absolute;
+  top: 50.0%;
+  left: 0.0%;
+}
+.cell:nth-child(11) {
+  position: absolute;
+  top: 25.0%;
+  left: 6.70%;
+}
+.cell:nth-child(12) {
+  position: absolute;
+  top: 6.70%;
+  left: 25.0%;
+}
